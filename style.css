@@ -5,22 +5,22 @@ body {
   background-color: #fdfdfd;
   font-family: "Open Sans", Arial, sans-serif;
   line-height: 1.5;
+  margin: auto;
 }
 #navName {
-  color: gold;
-  background-color: #000000;
+  color: #000000;
+  background-color: #ffffff;
   font-style: inherit;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
+
+p {
+  font-family: "Poppins", sans-serif;
+}
+
 h1 {
-  font-size: 50px;
-  font-style: italic;
-  font-weight: bold;
-  background-color: gold;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: "Holtwood One SC", serif;
   text-align: center;
-  margin: 0;
-  padding: 0;
 }
 h5 {
   font-weight: bold;
@@ -40,10 +40,9 @@ p.click {
 }
 
 #map {
-  display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 38%;
+  width: fit-content;
 }
 #navbar {
   position: fixed;
@@ -110,21 +109,8 @@ section li {
   margin: 15px 0px 0px 20px;
 }
 
-code {
-  display: block;
-  text-align: left;
-  white-space: pre-line;
-  position: relative;
-  word-break: normal;
-  word-wrap: normal;
-  line-height: 2;
-  background-color: #f7f7f7;
-  padding: 15px;
-  margin: 10px;
-  border-radius: 5px;
-}
-
 @media only screen and (max-width: 815px) {
+  /* For mobile phones: */
   #navbar ul {
     border: 1px solid;
     height: 207px;
